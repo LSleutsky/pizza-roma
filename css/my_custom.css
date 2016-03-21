@@ -1,0 +1,264 @@
+@import url("../font-awesome/css/font-awesome.min.css");
+
+@font-face {
+	font-family: "Freshman";
+	src: url("../fonts/Freshman.ttf");
+}
+
+* {
+	font-family: "Varela Round", sans-serif;
+}
+
+
+body {
+	background: #C72100;
+}
+
+a:visited,
+a:link,
+a:hover,
+a:active {
+	text-decoration: none;
+	outline: none;
+}
+
+#banner {
+		width: 100%;
+	}
+
+#banner #logo img {
+	display: block;
+	border-radius: 100%;
+	border: 8px solid #24662A;
+	margin: 0 auto !important;
+}
+
+#hero {
+	background: #24662A;
+}
+
+#hero .wrapper h1 {
+	font-family: "Freshman";
+	font-size: 2.79em;
+	font-weight: 900;
+	color: #C72100;
+	text-shadow: 0px 0px 15px #fff;
+}
+
+#hero .wrapper a {
+	text-decoration: none;
+	color: inherit;
+	font: inherit;
+}
+
+#hero .wrapper p {
+	color: #EDDFD1;
+}
+
+#hero .wrapper .grid_5 span {
+	font-style: italic;
+	color: #EDDFD1;
+}
+
+#hero .wrapper address {
+	color: #EBA963;
+	font-size: 1.5em;
+	font-weight: bold;
+	font-style: normal;
+}
+
+#hero .wrapper #store-hours {
+	color: #EBA963;
+	font-weight: 900;
+}
+
+#hero .wrapper #store-hours em {
+	font-size: .8em;
+	color: #EDDFD1;
+}
+
+#hero .wrapper .buttonlink {
+	background: #C72100;
+	padding: 15px 30px;
+	font-weight: 900;
+	text-align: center;
+	font-family: "Varela Round", sans-serif;
+}
+
+#hero .wrapper .buttonlink:hover {
+	background: #EBA963;
+	color: #24662A;
+}
+
+/****************************************************
+index.html flexslider styles - start
+*****************************************************/
+
+#hero .flexslider {
+	background: #EDDFD1;
+	border: none;
+	border-radius: 6px;
+}
+
+#hero .flexslider ul li p {
+	color: #875016;
+}
+
+#hero .flexslider ul li img {
+	border-radius: 6px 6px 0 0;
+}
+
+/* navigation arrows */
+#hero .flexslider .flex-prev,
+#hero .flexslider .flex-next {
+	/*display: none;*/
+}
+
+/* navigation circles under slider */
+#hero .flexslider .flex-control-nav {
+	/*display: none;*/
+}
+
+/****************************************************
+index.html flexslider styles - end
+*****************************************************/
+
+#main #content h1,
+#second-main #second-content h1,
+#third-main #third-content h1,
+#fourth-main #fourth-content h1,
+#fifth-main #fifth-content h1,
+#added-main #added-main-content h1 {
+	color: #EDDFD1;;
+	font-size: 1.75em;
+	font-family: "Varela Round", sans-serif;
+	text-shadow: none;
+	text-align: center;
+}
+
+#main #content p,
+#second-main #second-content p,
+#third-main #third-content p,
+#fourth-main #fourth-content p,
+#fifth-main #fifth-content p,
+#added-main #added-main-content p {
+	color: #EDDFD1;
+}
+
+#main #content img,
+#second-main #second-content img,
+#third-main #third-content img,
+#fourth-main #fourth-content img,
+#fifth-main #fifth-content img,
+#added-main #added-main-content img {
+	border-radius: 6px;
+}
+
+footer {
+	background: #000;
+	color: #875016;
+}
+
+footer .logo-footer {
+	text-align: center;
+}
+
+footer .logo-footer a:hover {
+	opacity: .85;
+}
+
+footer .logo-footer img {
+	width: 90px;
+	height: 90px;
+	border: 5px solid #24662A !important;
+	border-radius: 100%;
+}
+
+footer #colophon ul#contact-widgets {
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer #colophon ul#contact-widgets li {
+	display: inline-block;
+	text-align: center;
+	font-size: 3em;
+	padding: 0 .25em;
+}
+
+footer p {
+	text-align: center;
+	color: #EDDFD1;
+	font-size: 1.2em;
+	font-weight: 900;
+}
+
+footer #colophon ul#contact-widgets li a {
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+footer #colophon ul#contact-widgets li a:hover {
+	opacity: .85;
+}
+
+footer #colophon ul#contact-widgets li a.facebook {
+	background: #EDDFD1;
+}
+
+footer #colophon ul#contact-widgets li a.yelp {
+	background: #EDDFD1;
+	color: #C72100;
+}
+
+footer #colophon ul#contact-widgets li a.telephone {
+	background: #EDDFD1;
+	color: #24662A;
+}
+
+@media screen and (max-width: 919px) {
+	#hero,
+	#items-wrapper {
+		margin-top: 15px;
+	}
+
+	#hero .wrapper h1,
+	#hero .wrapper address,
+	#hero .wrapper #store-hours {
+		text-align: center !important;
+	}
+
+	#hero .wrapper #buttons {
+		display: block;
+		width: 250px;
+		margin: 0 auto;
+	}
+
+	#hero .wrapper #buttons a {
+		width: 250px;
+	}
+}
+
+@media screen and (max-width: 520px) {
+	#hero .wrapper h1 a {
+		font-size: 85%;
+	}
+
+	#hero .wrapper address,
+	#hero .wrapper #store-hours {
+		font-size: 97%;
+	}
+
+	#banner #menu-number {
+		font-size: 2.5em !important;
+	}
+
+	#banner #order-now {
+		font-size: 2.5em !important;
+	}
+
+	.modal-content .modal-header {
+		margin-top: -15px !important;
+	}
+}

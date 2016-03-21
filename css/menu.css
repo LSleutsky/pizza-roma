@@ -1,0 +1,89 @@
+@import url("../font-awesome/css/font-awesome.min.css");
+
+@font-face {
+	font-family: "Freshman";
+	src: url("../fonts/Freshman.ttf");
+}
+
+* {
+	font-family: "Varela Round", sans-serif;
+}
+
+.menu-page {
+	background-color: #C72100;	/* fall back color in case below image doesn't load */
+	background-image: url("../img/main_background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#banner h1 {
+	font-size: 2.75em;
+	text-align: center;
+	font-family: "Freshman" !important;
+	font-weight: 900;
+	color: #C72100;
+	text-shadow: 0px 0px 5px #EDDFD1;
+}
+
+#banner #order-now span {
+	background: #000;
+	text-align: center;
+	font-family: "Freshman" !important;
+	font-weight: 900;
+	color: #C72100;
+	text-shadow: none;
+	padding: 20px;
+	border-radius: 15px;
+}
+
+.delivery-charge {
+	text-align: center;
+	font-style: italic;
+	color: #000;
+	font-size: 1.1em;
+	font-weight: 900;
+}
+
+a:hover,
+#banner h1:hover {
+	opacity: .75;
+}
+
+#logo a:hover {
+	opacity: 1;
+}
+
+#items-wrapper {
+	background: #24662A;
+}
+
+[class*="grid_"] {
+	margin-bottom: 0;
+}
+
+#main [class*="grid_"] {
+	margin-bottom: -10px;
+}
+
+#fifth-content [class*="grid_"] {
+	margin-bottom: 20px;
+}
+
+.wrapper div a,
+.wrapper div a:hover {
+	text-decoration: none;
+}
+
+#main #content h1,
+#second-main #second-content h1,
+#third-main #third-content h1,
+#fourth-main #fourth-content h1,
+#fifth-main #fifth-content h1,
+#added-main #added-main-content h1 {
+	color: #EBA963;
+}
+
+footer {
+	background: #C72100;
+}
